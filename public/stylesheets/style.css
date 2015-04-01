@@ -5,6 +5,7 @@ body {
   font-family: Times New Roman, sans-serif;
   margin-left:300px;
   margin-right:300px;
+  border:1px solid;
 }
 
 h1{
@@ -22,15 +23,50 @@ h2{
 }
 
 
-h3{
-}
 #menu{
-	/*margin:10px 100px 10px 100px;*/
 	border:1px solid black;
 	
 }
 
-#photoAccueil{
-	margin-top:100px;
-	width:200px;
+.photoAccueil{
+	width:100px;
+	height:100px;
 }
+
+#photoDP{
+	margin-top:80px;
+	margin-right:970px;
+	margin-left:120px;
+}
+
+
+#tweeter{
+	margin-left:200px;
+	margin-top:-75px;
+	margin-right:77px;
+	padding-left:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.zoneTexte{
+	margin-left:70px;
+	padding-left:10px;
+	padding-top:10px;
+	width:620px;
+	height:100px;
+}
+
+.envoi{
+	margin-left:625px;
+}
+
+#exprime{
+	margin-bottom:5px;
+	margin-left:50px;
+}
+
+#tweetAccueil{
+	display:inline;
+}
+

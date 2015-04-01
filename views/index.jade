@@ -17,19 +17,16 @@ html
       h2 Recherche
     // bloc menu
     
-    #photoAccueil
-      img(src='/images/pdp.png')
-    //photo de profil dans l'accueil
+    #photoDP
+      img.photoAccueil(src='/images/pdp.png')
+    //photo de profil dans l'accueil, bloc
 
     #tweeter
-      h3 Exprimez-vous:
-      br
-      br
-      br
-      Envoyer
-    //cadre pour tweeter et envoyer
+      form
+       #exprime
+         label  Exprimez-vous :
+       textarea.zoneTexte(id='Exprime toi')
+       input.envoi(type='submit', value='Envoyer')
+       //cadre pour tweeter et envoyer
 
-    #tweetAccueil
-      h4 Actualiser
-      img(src='/images/pdp.png')
       
