@@ -1,5 +1,35 @@
-extends layout
+doctype html
+html
 
-block content
-  h1= title
-  p Welcome to #{title}
+  head
+    meta(charset='utf-8')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    title  Mini Twitter 
+    
+  body
+    h1  Mini Twitter 
+    // titre
+
+    #menu
+      h2  Accueil
+      h2 Profil  
+      h2 Messages
+      h2 Recherche
+    // bloc menu
+    
+    #photoAccueil
+      img(src='/images/pdp.png')
+    //photo de profil dans l'accueil
+
+    #tweeter
+      h3 Exprimez-vous:
+      br
+      br
+      br
+      Envoyer
+    //cadre pour tweeter et envoyer
+
+    #tweetAccueil
+      h4 Actualiser
+      img(src='/images/pdp.png')
+      
