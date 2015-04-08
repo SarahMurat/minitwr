@@ -10,31 +10,41 @@ html
     h1  Mini Twitter 
     // titre
 
-    #menu
+    div#menu
       h2  Accueil
       h2 Profil  
       h2 Messages
       h2 Recherche
     // bloc menu
     
-    #photoDP
+    div#photoDP
       img.photoAccueil(src='/images/pdp.png')
       h6 Anonymoi
     //photo de profil dans l'accueil, bloc
 
-    #tweeter
-      form
-       #exprime
-         label  Exprimez-vous :
-       textarea.zoneTexte(id='Exprime toi')
-       input.envoi(type='submit', value='Envoyer')
-       //cadre pour tweeter et envoyer
-
+    div#tweeter
+      form(action='/', method='POST')
+        div#exprime
+          label Exprimez-vous :
+          textarea.zoneTexte(name="tweet", rows=3, columns=50)
+          input.envoi(type='submit', content='Sends', value="Envoyer")
+    // '/':page d'accueil; action : intéragir avec..
+    // cadre pour tweeter et envoyer
+    
     h3 Actualisez
-       a(href='http://localhost:3007') 
+       a(href='http://localhost:3008') 
         img.boutonActu(src='/images/boutonActu.png')
    
-    #tweetAccueil
-      img.photoTweet(src='/images/pdp.png')
-      h4 Anonymoi a tweeté:
-      h5 Premier Tweet #new
+    div#tweetAccueil
+        if tweets.length > 0
+          div#afficheTweet
+            - each tweet in tweets
+                img.photoTweet(src='/images/pdp.png')
+                h4 Anonymoi a tweeté:
+                div#tweet
+                  p= tweet
+        else
+          h5 Pas de tweet à afficher
+
+    // ul : liste non ordonnee, each .. : iteration for
+

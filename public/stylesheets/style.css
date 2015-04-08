@@ -38,20 +38,22 @@ h3{
 
 h4{
 	color:black;
-	margin-left:230px;
+	margin-left:-20px;
 	margin-top:-73px;
 	font-size:15.45px;
 }
 
 h5{
-	font-size:14px;
-	border:1px solid grey;
-	margin-top:-20px;
+  color:black;
+  font-size:14px;
 	margin-left:250px;
-	margin-right:170px;
-	padding-top:20px;
-	padding-bottom:20px;
-	padding-left:10px;
+  margin-top:-15px;
+  margin-right:180px;
+  margin-bottom:75px;
+  border:1px solid;
+  padding-left:10px;
+  padding-top:15px;
+  padding-bottom:15px;
 }
 
 h6{
@@ -88,7 +90,8 @@ h6{
 }
 
 .zoneTexte{
-	margin-left:70px;
+	margin-left:20px;
+	margin-top: 10px;
 	padding-left:10px;
 	padding-top:10px;
 	width:620px;
@@ -96,7 +99,7 @@ h6{
 }
 
 .envoi{
-	margin-left:625px;
+	margin-left:575px;
 	margin-bottom:50px;
 	width:80px;
 	font-size:17px;
@@ -121,12 +124,26 @@ h6{
 .photoTweet{
 	width:75px;
 	height:75px;
-	margin-left:150px;
+	margin-left:-100px;
 }
 
 #tweetAccueil{
-	margin-top:50px;
+	margin-top:80px;
 	padding-bottom:500px;
 	padding-top:20px;
+  margin-left:10px;
 }
 
+#afficheTweet{
+	margin-left:250px;
+  margin-top:-15px;
+  margin-right:180px;
+}
+
+#tweet{
+  margin-top:-15px;
+  margin-bottom:75px;
+  border:1px solid grey;
+  padding-left:10px;
+  color:black;
+}
