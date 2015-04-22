@@ -1,17 +1,18 @@
 /* Regles générales de la page */
 
 body {
-	background-color:white;
-	color:grey;
-	font-family: RobotoDraft, sans-serif,grey;
+	background-color:#c6f6ff;
+  color:#484F4E;
+	font-family: monospace, sans-serif,grey;
 	margin-left:300px;
 	margin-right:300px;
-	padding-bottom:700px;
+	padding-bottom:50px;
 }
 
 h1{
-	color:pink;
+	color:#0277BD;
 	text-align: center;
+  font-family:Garamond;
 	font-size:75px;
 }
 
@@ -62,10 +63,21 @@ h6{
 	margin-left:11px;
 }
 
+h7{
+  color:#330066;
+  font-size:16px;
+}
+
+#deco{
+  margin-left:940px;
+  margin-top:-107px;
+  margin-bottom:107px;
+  padding:3px 18px 3px 18px;
+
+}
 
 #menu{
 	border-bottom:1px solid black;
-	
 }
 
 .photoAccueil{
@@ -103,7 +115,7 @@ h6{
 	margin-bottom:50px;
 	width:80px;
 	font-size:17px;
-	background:pink;
+	background:#81D4F4;
 }
 
 
@@ -129,7 +141,7 @@ h6{
 
 #tweetAccueil{
 	margin-top:80px;
-	padding-bottom:500px;
+	padding-bottom:90px;
 	padding-top:20px;
   margin-left:10px;
 }
@@ -147,3 +159,4 @@ h6{
   padding-left:10px;
   color:black;
 }
+
