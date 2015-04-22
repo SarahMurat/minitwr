@@ -1,40 +1,86 @@
 /* Regles générales de la page */
 
+
 body {
-	background-color:white;
-	color:grey;
-	font-family: RobotoDraft, sans-serif,grey;
+	background-color:#c6f6ff;
+	color:#484F4E;
+	font-family: monospace, sans-serif,grey;
 	margin-left:300px;
 	margin-right:300px;
 	padding-bottom:700px;
 }
 
 h1{
-	color:pink;
+	color:#0277BD;
 	text-align: center;
-	font-size:75px;
+  font-family:Garamond;
+	font-size:80px;
 }
 
 h2{
 	text-align: center;
-	color:#444444;
+	color:#78909C;
 	font-size:39px;
 	font-weight:normal;
-	
 }
 
+h3{
+  font-size:15px;
+  margin-top:40px;
+  margin-left:650px;
+}
+
+h4{
+  text-align:center;
+  font-size:18px;
+}
 
 #Info{
 	margin-top:100px;
 }
 
+#Connexion{
+  border: 2px grey solid;
+  padding: 10px 20px 20px 20px;
+  width: 400px;
+  margin-top:-1000px;
+  margin-left:600px;
+  background:#E1F5FE;
+}
 
 .envoi{
-  margin-top:30px;
+  margin-top:10px;
 	margin-left:30px;
 	margin-bottom:50px;
 	width:250px;
 	font-size:17px;
+}
+
+.connect{
+  margin-left:30px;
+  font-size:18px;
+  width:320px;
+}
+.valide{
+  margin-top:30px;
+  margin-left:480px;
+  margin-bottom:50px;
+  font-size:16px;
+}
+
+.valideConnect{
+  font-size: 16px;
+  margin-top:20px;
+  margin-left:290px;
+}
+
+.sexe{
+  margin-top:30px;
+  margin-left:30px;
+}
+
+.condition{
+  margin-top:80px;
 }
 
 #exprime{

@@ -17,22 +17,22 @@ html
       form(action='/', method='POST')
           label Nom * :
           div
-          input.envoi(type='text', content='Sends')
-
+          input.envoi(type='text', placeholder="Tapez votre nom",content='Sends')
+          
           div
-          label Prenom * :
+          label Prénom * :
           div
-          input.envoi(type='text', content='Sends')
+          input.envoi(type='text', placeholder="Tapez votre prénom",content='Sends')
 
           div
           label Pseudo * :
           div
-          input.envoi(type='text', content='Sends')
+          input.envoi(type='text',placeholder="Ex: Anonymoi", content='Sends')
 
           div
           label Email * :
           div
-          input.envoi(type='text', content='Sends')
+          input.envoi(type='text',placeholder="Ex: anonymoi@gmail.com", content='Sends')
 
           div
           label Mot de passe * :
@@ -45,5 +45,44 @@ html
           input.envoi(type='password', content='Sends')
 
           div
-          input(type='radio')
+          label Date de naissance * :
+          div
+          input.envoi(type='date')
+  
+          div
+          label Sexe :
+          div
+          input.sexe(type='radio')
+          label Homme
+          div
+          input.sexe(type='radio')
+          label Femme
+          
+          div
+          input.condition(type='checkbox')
           label   Je fais semblant d'avoir lu les conditions d'utilisations
+          
+          div
+          h3 Les champs suivis d'une * sont obligatoires.
+
+          div
+          input.valide(type='submit', content='Sends', value="Valider")
+
+    div#Connexion
+      h4 Déjà inscrit ? Connectez-vous: 
+
+      div
+      label Pseudo :
+      div
+      input.connect(type='text',content='Sends')
+
+      div
+      label Mot de passe :
+      div
+      input.connect(type='password', content='Sends')
+
+      div
+      input.valideConnect(type='submit', content='Sends', value="Valider")
+      
+
+         
