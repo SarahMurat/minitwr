@@ -25,53 +25,45 @@ h2{
 	
 }
 
-
 h3{
-	display:inline;
-	margin-left:70px;
-	margin-bottom:100px;
-	margin-top:10px;
-	padding-left:8px;
-	font-size:17px;
-	
-	
+	color:#330066;
+  font-size:16px;
 }
 
 h4{
-	color:black;
-	margin-left:-20px;
-	margin-top:-73px;
+  float:right;
+	font-size:30px;
+  font-family:Georgia;
+  margin-right:650px;
+  margin-bottom:20px;
+}
+
+
+h6{
+  font-size:12px;
+	color:#D7CCC8
+}
+
+h7{
+  color:black;
+	margin-left:40px;
+  margin-top:200px;
 	font-size:15.45px;
 }
 
-h5{
+h9{
   color:black;
   font-size:14px;
 	margin-left:250px;
-  margin-top:-15px;
   margin-right:180px;
   margin-bottom:75px;
-  border:1px solid;
   padding-left:10px;
   padding-top:15px;
   padding-bottom:15px;
 }
 
-h6{
-	font-size:30px;
-  font-family:Georgia;
-	margin-top:-205px;
-	margin-left:220px;
-}
-
-h7{
-  color:#330066;
-  font-size:16px;
-}
-
 #deco{
   margin-left:940px;
-  margin-top:-107px;
   margin-bottom:107px;
   padding:3px 18px 3px 18px;
 
@@ -82,6 +74,7 @@ h7{
 }
 
 .photoProfil{
+  float:left;
 	width:200px;
 	height:200px;
 	border:1px solid;
@@ -93,54 +86,10 @@ h7{
 	margin-left:50px;
 }
 
-
-#tweeter{
-	margin-left:200px;
-	margin-top:400px;
-	margin-right:77px;
-	padding-left:20px;
-	padding-top:10px;
-	padding-bottom:10px;
-}
-
-.zoneTexte{
-	margin-left:20px;
-	margin-top: 10px;
-	padding-left:10px;
-	padding-top:10px;
-	width:620px;
-	height:100px;
-}
-
-.envoi{
-	margin-left:575px;
-	margin-bottom:30px;
-	width:80px;
-	font-size:17px;
-	background:#81D4F4;
-}
-
-
-#exprime{
-	margin-bottom:5px;
-	margin-left:60px;
-	margin-top:-150px;
-	font-size:22px;
-}
-
-.boutonActu{
-	width:10px;
-	height:10px;
-	border: 1px solid;
-	border:1px solid;
-}
-
-
 .photoTweet{
 	width:75px;
 	height:75px;
 	margin-left:-100px;
-	border:1px solid;
 }
 
 #tweetProfil{
@@ -151,38 +100,29 @@ h7{
 }
 
 #description{
-	width:200px;
-	height:200px;
-	margin-bottom:100px;
-	margin-left:50px;
-	padding-bottom:5px;
+	width:700px;
+	height:150px;
+	margin-left:320px;
+  margin-top:180px;
+  margin-bottom:100px;
+  padding: 20px 20px 10px 10px;
+  background:#663333;
+  color:white;
 }
-
-.zoneTexte2{
-	width:195px;
-	height:100px;
-}
-
-.envoi2{
-	margin-top:100px;
-	margin-left:-85px;
-	width:80px;
-	font-size:17px;
-}
-
 
 #afficheTweet{
 	margin-left:250px;
-  	margin-top:-15px;
+  margin-top:-15px;
  	margin-right:180px;
 }
 
 #tweet{
-  margin-top:-15px;
+  margin-top:10px;
   margin-bottom:75px;
-  border:1px solid grey;
   padding-left:10px;
   color:black;
+  background:#EFEBE9;
+  border:1px solid;
 }
 
 

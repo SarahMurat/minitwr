@@ -12,11 +12,9 @@ html
     h1  Mini Twitter
     // titre
 
-
     div#deco
       a(href='/')
-        h7 Déconnexion
-
+        h3 Déconnexion
 
     div#menu
       a(href='/accueil') 
@@ -29,37 +27,31 @@ html
     
     div#photoDP
       img.photoProfil(src='/images/pdp.png')
-      h6 Anonymoi
+     h4 Anonymoi
     //photo de profil dans l'accueil, bloc
     
-
-    div#tweeter
-      form(action='/', method='POST')
-        div#exprime
-          label Exprimez-vous :
-          textarea.zoneTexte(name="tweet", rows=3, columns=50)
-          input.envoi(type='submit', content='Sends', value="Envoyer")
-    // '/':page d'accueil; action : intéragir avec..
-    // cadre pour tweeter et envoyer
-    
     div#description
-      label Description :
-      textarea.zoneTexte2(name="description", rows=3, columns=10)
-    //input.envoi2(type='submit', content='Sends', value="Envoyer")
-
-    h3 Actualisez
-       a(href='/') 
-        img.boutonActu(src='/images/boutonActu.png')
+      h8 Anonymoi, 18 ans.
+      br
+      h8 Habite à Strasbourg, France.
+      br
+      h8 Fan de l'anonymat, et des poneys. 
+      br
+      h8 J'aime passer du temps sur mon ordinateur, à envoyer des commentaires anonymes et à coder.
+      br
+      br
+      h6 Inscrit(e) depuis le 12/07/2014
+    
    
     div#tweetProfil
         if tweets.length > 0
           div#afficheTweet
             - each tweet in tweets
                 img.photoTweet(src='/images/pdp.png')
-                h4 Vous avez tweeté :
+                h7 Vous avez tweeté :
                 div#tweet
                   p= tweet
                   
         else
-          h5 Pas de tweet à afficher
+          h9 Pas de tweet à afficher
     // ul : liste non ordonnee, each .. : iteration for
