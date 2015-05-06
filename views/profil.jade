@@ -1,0 +1,65 @@
+doctype html
+html
+
+  head
+    meta(charset='utf-8')
+    link(rel='stylesheet', href='/stylesheets/styleProfil.css')
+    style(type='text/css').
+      a:link{text-decoration:none}
+    title  Mini Twitter 
+
+  body
+    h1  Mini Twitter
+    // titre
+
+
+    div#deco
+      a(href='/')
+        h7 Déconnexion
+
+
+    div#menu
+      a(href='/accueil') 
+        h2 Accueil
+      a(href='/profil')
+        h2 Profil  
+      h2 Messages
+      h2 Recherche
+    // bloc menu
+    
+    div#photoDP
+      img.photoProfil(src='/images/pdp.png')
+      h6 Anonymoi
+    //photo de profil dans l'accueil, bloc
+    
+
+    div#tweeter
+      form(action='/', method='POST')
+        div#exprime
+          label Exprimez-vous :
+          textarea.zoneTexte(name="tweet", rows=3, columns=50)
+          input.envoi(type='submit', content='Sends', value="Envoyer")
+    // '/':page d'accueil; action : intéragir avec..
+    // cadre pour tweeter et envoyer
+    
+    div#description
+      label Description :
+      textarea.zoneTexte2(name="description", rows=3, columns=10)
+    //input.envoi2(type='submit', content='Sends', value="Envoyer")
+
+    h3 Actualisez
+       a(href='/') 
+        img.boutonActu(src='/images/boutonActu.png')
+   
+    div#tweetProfil
+        if tweets.length > 0
+          div#afficheTweet
+            - each tweet in tweets
+                img.photoTweet(src='/images/pdp.png')
+                h4 Vous avez tweeté :
+                div#tweet
+                  p= tweet
+                  
+        else
+          h5 Pas de tweet à afficher
+    // ul : liste non ordonnee, each .. : iteration for
