@@ -1,7 +1,7 @@
 /* Regles générales de la page */
 
 body {
-	background-color:#c6f6ff;
+  background-image:url(/images/fond3.png);
   color:#484F4E;
 	font-family: monospace, sans-serif,grey;
 	margin-left:300px;
@@ -10,7 +10,7 @@ body {
 }
 
 h1{
-	color:#0277BD;
+	color:#795548;
 	text-align: center;
   font-family:Garamond;
 	font-size:75px;
@@ -115,7 +115,7 @@ h7{
 	margin-bottom:50px;
 	width:80px;
 	font-size:17px;
-	background:#81D4F4;
+	background:#d7ccc8;
 }
 
 
@@ -127,9 +127,8 @@ h7{
 }
 
 .boutonActu{
-	width:10px;
-	height:10px;
-	border: 1px solid;
+	width:15px;
+	height:15px;
 }
 
 

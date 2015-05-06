@@ -3,11 +3,12 @@ html
 
   head
     meta(charset='utf-8')
+    style(type='text/css').
+      a:link{text-decoration:none}
     link(rel='stylesheet', href='/stylesheets/styleAccueil.css')
-    link(rel='views', href='/views/inscription.jade')
     title  Mini Twitter 
     
-  body
+  body(background='images/image_de_fond.png')
     h1  Mini Twitter 
     // titre
 
@@ -20,7 +21,8 @@ html
     div#menu
       a(href='/accueil') 
         h2 Accueil
-      h2 Profil  
+      a(href='/profil')
+        h2 Profil  
       h2 Messages
       h2 Recherche
     // bloc menu

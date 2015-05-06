@@ -4,6 +4,8 @@ html
   head
     meta(charset='utf-8')
     link(rel='stylesheet', href='/stylesheets/style.css')
+    style(type='text/css').
+      a:link{text-decoration:none}
     title  Inscription Mini Twitter
     
   body
@@ -16,13 +18,14 @@ html
     div#menu
       a(href='/accueil') 
         h5 Accueil
-      h5 Profil  
+      a(href='/profil')
+        h5 Profil  
       h5 Messages
       h5 Recherche
     // bloc menu
 
     div#Info
-      form(action='/', method='POST')
+      form(action='/accueil', method='POST')
           label Nom * :
           div
           input.envoi(type='text', placeholder="Tapez votre nom",content='Sends')
@@ -60,11 +63,13 @@ html
           div
           label Sexe :
           div
-          input.sexe(type='radio')
-          label Homme
-          div
-          input.sexe(type='radio')
+          input.sexe(type='radio', name="sexe")
           label Femme
+          div
+          input.sexe(type='radio',name="sexe")
+          label Homme
+          //name permet de faire un choix exclusif entre les boutons de type radio ayant le meme name
+
           
           div
           input.condition(type='checkbox')
@@ -90,7 +95,8 @@ html
       input.connect(type='password', content='Sends')
 
       div
-      input.valideConnect(type='submit', content='Sends', value="Valider")
+      a(href='/accueil') 
+        input.valideConnect(type='submit', content='Sends', value="Valider")
       
 
          
