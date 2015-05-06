@@ -14,7 +14,12 @@ h1{
 	text-align: center;
   font-family:Garamond;
 	font-size:75px;
+  margin-top:40px;
+  display:inline;
+  margin-left:300px;
+  
 }
+
 
 h2{
 	display:inline;
@@ -39,8 +44,7 @@ h3{
 
 h4{
 	color:black;
-	margin-left:-20px;
-	margin-top:-73px;
+	margin-left:10px;
 	font-size:15.45px;
 }
 
@@ -48,7 +52,6 @@ h5{
   color:black;
   font-size:14px;
 	margin-left:250px;
-  margin-top:-15px;
   margin-right:180px;
   margin-bottom:75px;
   border:1px solid;
@@ -59,8 +62,8 @@ h5{
 
 h6{
 	font-size:17px;
-	margin-top:-3px;
 	margin-left:11px;
+  float:top;
 }
 
 h7{
@@ -70,10 +73,8 @@ h7{
 
 #deco{
   margin-left:940px;
-  margin-top:-107px;
   margin-bottom:107px;
   padding:3px 18px 3px 18px;
-
 }
 
 #menu{
@@ -94,10 +95,8 @@ h7{
 
 #tweeter{
 	margin-left:200px;
-	margin-top:-75px;
 	margin-right:77px;
 	padding-left:20px;
-	padding-top:10px;
 	padding-bottom:10px;
 }
 
@@ -122,7 +121,6 @@ h7{
 #exprime{
 	margin-bottom:5px;
 	margin-left:50px;
-	margin-top:-70px;
 	font-size:22px;
 }
 
@@ -135,7 +133,6 @@ h7{
 .photoTweet{
 	width:75px;
 	height:75px;
-	margin-left:-100px;
 }
 
 #tweetAccueil{
@@ -146,16 +143,17 @@ h7{
 }
 
 #afficheTweet{
+  margin-right: 300px;
+  top: 500px;
 	margin-left:250px;
-  margin-top:-15px;
   margin-right:180px;
 }
 
 #tweet{
-  margin-top:-15px;
   margin-bottom:75px;
   border:1px solid grey;
   padding-left:10px;
   color:black;
+  background:#EFEBE9;
 }
 

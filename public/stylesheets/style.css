@@ -54,6 +54,7 @@ h5{
 
 #Info{
 	margin-top:100px;
+  float:left;
 }
 
 #Connexion{
@@ -61,9 +62,11 @@ h5{
   color:white;
   padding: 10px 20px 20px 20px;
   width: 400px;
-  margin-top:-1000px;
-  margin-left:600px;
   background:#663333;
+  position: absolute;
+  right: 0;
+  margin-right: 300px;
+  top: 500px;
 }
 
 .envoi{
@@ -99,13 +102,6 @@ h5{
 
 .condition{
   margin-top:80px;
-}
-
-#exprime{
-	margin-bottom:5px;
-	margin-left:50px;
-	margin-top:-70px;
-	font-size:22px;
 }
 
 

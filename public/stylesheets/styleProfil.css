@@ -14,6 +14,8 @@ h1{
 	text-align: center;
   font-family:Garamond;
 	font-size:75px;
+  display:inline;
+  margin-left:300px;
 }
 
 h2{
@@ -46,7 +48,7 @@ h6{
 
 h7{
   color:black;
-	margin-left:40px;
+	margin-left:10px;
   margin-top:200px;
 	font-size:15.45px;
 }
@@ -89,7 +91,6 @@ h9{
 .photoTweet{
 	width:75px;
 	height:75px;
-	margin-left:-100px;
 }
 
 #tweetProfil{
@@ -112,7 +113,6 @@ h9{
 
 #afficheTweet{
 	margin-left:250px;
-  margin-top:-15px;
  	margin-right:180px;
 }
 
